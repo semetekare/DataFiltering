@@ -1,0 +1,7 @@
+com\mycompany\datafiltering\HandlingFloat.class
+com\mycompany\datafiltering\HandlingString.class
+com\mycompany\datafiltering\TypeSorting.class
+com\mycompany\datafiltering\Serializator.class
+com\mycompany\datafiltering\Handling.class
+com\mycompany\datafiltering\DataFiltering.class
+com\mycompany\datafiltering\HandlingInteger.class
