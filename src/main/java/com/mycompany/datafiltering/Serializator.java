@@ -58,7 +58,7 @@ public class Serializator {
             while ((line = reader.readLine()) != null) {
                 if (Pattern.matches("-?\\d+", line.trim())) {
                     DataFiltering.sorting.getListInt().add(Long.valueOf(line.trim()));
-                } else if (Pattern.matches("-?\\d+\\.\\d+", line.trim())) {
+                } else if (Pattern.matches("-?\\d+(\\.\\d+)?([Ee][+-]?\\d+)?", line.trim())) {
                     DataFiltering.sorting.getListFloat().add(Float.valueOf(line.trim()));
                 } else if (Pattern.matches("\\s*[a-zA-Zа-яА-ЯёЁ ]+\\s*", line.trim())) {
                     DataFiltering.sorting.getListStr().add(line.trim());
