@@ -29,7 +29,7 @@ public class HandlingString<T extends String> extends Handling<T>{
      * @param list Список значений для обработки.
      * @param flagP префикс
      */
-    HandlingString(List<T> list, String flagP) {
+    public HandlingString(List<T> list, String flagP) {
         super(list, flagP);
         String[] minMax = minMax();
         this.min = minMax[0];

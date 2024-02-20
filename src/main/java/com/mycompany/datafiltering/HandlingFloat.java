@@ -37,7 +37,7 @@ public class HandlingFloat<T extends Float> extends Handling<T>{
      * @param list Список значений для обработки.
      * @param flagP префикс
      */
-    HandlingFloat(List<T> list, String flagP) {
+    public HandlingFloat(List<T> list, String flagP) {
         super(list, flagP);
         float[] minMax = minMax();
         double[] sumMean = sumMean();

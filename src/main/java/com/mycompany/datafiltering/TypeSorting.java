@@ -77,7 +77,7 @@ public class TypeSorting {
      * @param flagP Префикс для имен файлов.
      * @param flagA Флаг, указывающий на режим добавления данных в файлы.
      */
-    TypeSorting(String flagO, String flagP, boolean flagA) {
+    public TypeSorting(String flagO, String flagP, boolean flagA) {
         serializator = new Serializator();
         this.listInt = new ArrayList<>();
         this.listFloat = new ArrayList<>();

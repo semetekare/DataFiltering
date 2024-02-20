@@ -37,7 +37,7 @@ public class Handling<T> {
      * @param list список параметризованных значений
      * @param flagP Префекс output файла
      */
-    Handling(List<T> list, String flagP){
+    public Handling(List<T> list, String flagP){
         this.list = list;
         this.prefix = flagP;
     }

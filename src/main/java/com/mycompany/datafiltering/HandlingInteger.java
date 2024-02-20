@@ -39,7 +39,7 @@ public class HandlingInteger<T extends Long> extends Handling<T>{
      * @param list Список значений для обработки.
      * @param flagP префикс
      */
-    HandlingInteger(List<T> list, String flagP) {
+    public HandlingInteger(List<T> list, String flagP) {
         super(list, flagP);
         long[] minMax = minMax();
         long[] sumMean = sumMean();
